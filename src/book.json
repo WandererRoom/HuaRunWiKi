@@ -1,0 +1,47 @@
+{
+    "language": "zh-hans",
+    "plugins": [
+      "code",
+      "expandable-chapters-small",
+      "copy-code-button",
+      "splitter",
+      "klipse",
+      "flexible-alerts",
+      "auto-scroll-table",
+      "page-footer-ex",
+      "intopic-toc",
+      "-lunr",
+      "-search",
+      "search-pro",
+      "back-to-top-button",
+      "insert-logo",
+      "language-picker"
+    ],
+    "pluginsConfig": {
+      "code": {
+        "copyButtons": false
+      },
+      "page-footer-ex": {
+        "copyright": "By HuaRun Team",
+        "markdown": false,
+        "update_label": "<i>Updated</i>",
+        "update_format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "language-picker": {
+        "grid-columns": 3
+      },
+      "insert-logo": {
+        "url": "./images/huarun.png",
+        "style": "background: none; max-height: 80px; min-height: 80px"
+      }
+    },
+    "links": {
+      "gitbook": false,
+      "sharing": {
+        "all": false
+      }
+    },
+    "styles": {
+      "website": "styles/website.css"
+    }
+  }
